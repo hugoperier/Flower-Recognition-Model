@@ -1,9 +1,10 @@
 #!/bin/bash 
 #PBS -l nodes=1:gpus=1:ppn=1
 
-source activate keras_tf1.15
+source activate tf15
 
-cd /home/perier_h/Documents/finals
+cd /home/brunel_m/Flower-Recognition-Model
+pwd
 python3 main.py
 
 conda deactivate
